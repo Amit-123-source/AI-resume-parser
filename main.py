@@ -32,5 +32,5 @@ def main():
     
     print(f"Resume information extracted and saved to {output_format}.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()

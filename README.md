@@ -1,4 +1,3 @@
-
 # Resume Parser AI
 
 This project is an AI-based resume parser that extracts and organizes key information from resumes in PDF format. It is designed to streamline HR processes and enhance candidate selection by providing structured data from unstructured resumes.
@@ -11,12 +10,15 @@ This project is an AI-based resume parser that extracts and organizes key inform
   - Education
   - Skills
   - Projects
+  - Work Experience
+  - Hobbies
+  - Qualities
 - Supports batch processing of resumes.
 - Saves extracted data in CSV or Excel format.
 
 ## Project Structure
 ```
-├── extract_info.py      # Contains functions for extracting information like email, phone, etc.
+├── extract_info.py      # Contains functions for extracting resume information.
 ├── main.py              # Main script to process resumes.
 ├── pdf_parser.py        # Handles text extraction from PDFs.
 ├── utils.py             # Utility functions for saving data to files.
@@ -45,32 +47,28 @@ This project is an AI-based resume parser that extracts and organizes key inform
    ```bash
    python main.py
    ```
-3. Choose the output format (CSV or Excel) in the `main.py` script by modifying the `output_format` variable.
+3. The output format (CSV or Excel) is defined in the `main.py` script via the `output_format` variable.
 4. The extracted data will be saved as `extracted_resume_data.csv` or `extracted_resume_data.xlsx`.
 
 ## Example Output
 ### Example CSV Output (`extracted_resume_data.csv`):
-| Resume Name           | Name          | Email               | Phone          | Education                | Skills                        | Projects                          |
-|-----------------------|---------------|---------------------|----------------|--------------------------|-------------------------------|-----------------------------------|
-| John_Doe_Resume.pdf   | John Doe      | john.doe@gmail.com  | +1234567890    | B.Sc. in Computer Science, XYZ University | Python, Java, SQL                | Developed a web scraping tool.   |
-| Jane_Smith_Resume.pdf | Jane Smith    | jane.smith@yahoo.com | +1987654321    | M.Sc. in Data Science, ABC University    | Python, Machine Learning, Excel  | Built a recommendation system.   |
+| Name        | Email               | Phone        | Education                   | Skills                  | Projects                    | Work Experience             | Hobbies          | Qualities            | Resume Name           |
+|-------------|---------------------|--------------|-----------------------------|--------------------------|-----------------------------|-----------------------------|------------------|-----------------------|-----------------------|
+| John Doe    | john.doe@gmail.com  | +1234567890  | B.Sc. in CS, XYZ University | Python, SQL             | Developed a web app        | Interned at ABC Corp        | Reading, Sports  | Leadership, Teamwork  | John_Doe_Resume.pdf   |
+| Jane Smith  | jane.smith@yahoo.com| +1987654321  | M.Sc. in Data Science, ABC | Python, Excel           | Built a recommendation sys | Employed at XYZ Ltd         | Music, Art       | Problem-solving       | Jane_Smith_Resume.pdf |
 
 ### Example Excel Output (`extracted_resume_data.xlsx`):
-The structure will be the same as the CSV file but stored in an Excel format with sheet names like "Resume Data."
+Same structure as CSV output, saved as an Excel spreadsheet with a single sheet.
 
 ## Error Handling
-The script gracefully skips any unreadable or malformed PDF files and logs their names for review.
+- Unreadable or malformed PDFs are skipped.
+- Errors during parsing are printed with the file name.
 
 ## License
 MIT License
-
-## Contribution
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
 ---
 
 ### Sample Run
-Place PDF resumes in the `sample_resumes/` folder and execute the command:
 ```bash
 python main.py
 ```
@@ -79,7 +77,3 @@ Expected output:
 
 ### Known Issues
 - PDFs with only images require OCR tools to extract text.
-
-### Future Enhancements
-- Integrate OCR functionality for image-based PDFs.
-- Add a web-based UI for resume uploads and data visualization.

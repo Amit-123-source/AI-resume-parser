@@ -31,8 +31,8 @@ This project is an AI-based resume parser that extracts and organizes key inform
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone https://github.com/Amit-123-source/resume-parser.git
+   cd resume-parser
    ```
 2. Install dependencies:
    ```bash

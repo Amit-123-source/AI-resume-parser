@@ -1,0 +1,6 @@
+PyPDF2
+pdfplumber
+pandas
+openpyxl
+re
+spacy

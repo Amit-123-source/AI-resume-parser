@@ -99,12 +99,6 @@ The system now places the Resume Name at the end for better readability:
 | John Doe      | john.doe@gmail.com  | (123) 456-7890 | Python, Java, SQL, React | Software Engineer at XYZ Corp | B.Sc. Computer Science, MIT | E-commerce Platform, AI Chatbot | Reading, Gaming | Leadership, Analytical | John_Doe_Resume.pdf   |
 | Jane Smith    | jane.smith@yahoo.com | (987) 654-3210 | Machine Learning, Python | Data Scientist at ABC Inc | M.Sc. Data Science, Harvard | Recommendation System, NLP Tool | Travel, Photography | Creative, Problem-solving | Jane_Smith_Resume.pdf |
 
-### Enhanced Excel Output
-- **Professional Formatting**: Color-coded headers, auto-adjusted columns
-- **Data Validation**: Wrapped text and optimized row heights
-- **Interactive Features**: Frozen headers, auto-filters
-- **Easy Navigation**: Resume name placed at the end for reference
-
 ## 📈 Processing Summary
 
 The tool provides comprehensive feedback:

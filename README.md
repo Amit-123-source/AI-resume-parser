@@ -56,7 +56,8 @@
 
 ## Basic Usage
 
-#### Process resumes in default folder (sample_resumes/)
+#### Step-1 : Keep resumes in **`sample_resumes/`** folder
+#### Step-2 : Run the following command
 ```bash
 python main.py
 ```

@@ -1,5 +1,5 @@
 
-# Resume Parser AI
+# AI Resume Parser 
 
 🎯 An advanced AI-powered resume parser that extracts and organizes comprehensive information from PDF resumes. This tool streamlines HR processes and enhances candidate selection by converting unstructured resume data into structured, actionable insights.
 
@@ -105,7 +105,7 @@ The system now places the Resume Name at the end for better readability:
 The tool provides comprehensive feedback:
 
 ```
-🎯 Resume Information Extractor
+🎯 AI Resume Parser
 ============================================================
 📁 Found 15 PDF files in 'sample_resumes'
 🚀 Starting resume processing...

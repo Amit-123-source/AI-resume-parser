@@ -38,7 +38,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Amit-123-source/resume-parser.git
+   git clone https://github.com/Amit-123-source/AI-resume-parser.git
    cd resume-parser
    ```
 

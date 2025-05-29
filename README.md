@@ -39,7 +39,7 @@
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Amit-123-source/AI-resume-parser.git
-   cd resume-parser
+   cd AI-resume-parser
    ```
 
 2. **Install dependencies:**

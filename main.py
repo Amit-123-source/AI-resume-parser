@@ -136,7 +136,7 @@ def display_extraction_preview(data, num_samples=2):
 def setup_argument_parser():
     """Setup command line argument parser"""
     parser = argparse.ArgumentParser(
-        description="📄 Resume Information Extractor - Extract structured data from PDF resumes",
+        description="📄 AI Resume Parser - Extract structured data from PDF resumes",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     

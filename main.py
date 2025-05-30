@@ -201,7 +201,7 @@ def main():
     args = parser.parse_args()
     
     # Welcome message
-    print("🎯 Resume Information Extractor")
+    print("🎯 AI-Resume-Parser")
     print("=" * 60)
     
     try:

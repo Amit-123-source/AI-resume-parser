@@ -112,9 +112,7 @@ resume-parser/
 ├── utils.py              # Utility functions
 ├── requirements.txt      # Project dependencies
 ├── README.md            # Project documentation
-│
-├── sample_resumes/      # Sample resume files (create this folder)
-└── resume_extraction_results/  # Output directory (auto-created)
+└── sample_resumes/      # Sample resume files (Sample resumes)
 ```
 ## 📊 Sample Output
 ## CSV Output

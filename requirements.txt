@@ -1,7 +1,0 @@
-PyPDF2
-pdfplumber
-pandas
-openpyxl
-regex
-spacy
-argparse

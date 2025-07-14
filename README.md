@@ -206,7 +206,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📧 **Email**: your.email@example.com
+- 📧 **Email**: amitkumarswain2005@gmail.com
 ---
 
 <div align="center">
